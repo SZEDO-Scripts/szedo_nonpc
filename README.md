@@ -48,6 +48,8 @@ This script uses GTA V natives to adjust density every frame:
 
 🚫 No additional dependencies
 
-📬 Contact
+---
+
+# 📬 Contact
 Got suggestions, bugs, or ideas?
 Open an issue or a pull request on the GitHub repo!
