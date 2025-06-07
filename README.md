@@ -42,19 +42,12 @@ Config.npcFrequency = 0.0
 This script uses GTA V natives to adjust density every frame:
 
 
-Citizen.CreateThread(function()
-    while true do
-        Citizen.Wait(0)
-        SetPedDensityMultiplierThisFrame(Config.npcFrequency)
-        SetScenarioPedDensityMultiplierThisFrame(Config.npcFrequency, Config.npcFrequency)
-        SetRandomVehicleDensityMultiplierThisFrame(Config.trafficFrequency)
-        SetParkedVehicleDensityMultiplierThisFrame(Config.trafficFrequency)
-        SetVehicleDensityMultiplierThisFrame(Config.trafficFrequency)
-    end
-end)
 
 # ✅ Requirements
 🧩 FiveM FXServer
 
 🚫 No additional dependencies
 
+📬 Contact
+Got suggestions, bugs, or ideas?
+Open an issue or a pull request on the GitHub repo!
